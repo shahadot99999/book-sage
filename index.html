@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
     
     <!-- Tailwind set up -->
@@ -26,9 +29,54 @@
 
 </head>
 <body>
-   <h3 class=" bg-indigo-300">hello world</h3> 
-   <button class="bg-indigo-500 ...">
-    Save changes
-  </button>
+    <nav class=" p-4">
+        <div class="container mx-auto flex justify-between items-center">
+          
+          <!-- Left Side: Icon and Website Name -->
+          <div class="flex items-center text-white">
+          
+            <a href="#" class="flex ">
+                <img src="Image/1.png" alt="Logo" class="h-10 w-10">
+            <span class="text-black text-xl font-bold">Book Sage</span>
+            </a>           
+            
+          </div>
+    
+          <!-- Middle: Navigation Links -->
+          <div class="hidden md:flex space-x-6">
+            <a href="#" class="text-black hover:text-blue-800">Featured</a>
+            <a href="#" class="text-black hover:text-blue-800">
+                Discover</a>
+            <a href="#" class="text-black hover:text-blue-800">
+                Submit</a>
+            <a href="#" class="text-black hover:text-blue-800">
+                Reviewers</a>
+            <a href="#" class="text-black hover:text-blue-800">
+                Blog</a>
+          </div>
+    
+          <!-- Right Side: Search, Login, and Sign Up -->
+          <div class="flex items-center space-x-4">
+            <!-- Search Bar -->
+            <div class="relative text-gray-700 hidden md:block">
+              <input type="search" name="search" placeholder="Search..." class="bg-sky-200 text-black h-10 px-5 pr-10 rounded-full text-sm focus:outline-none">
+              <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-current text-gray-400" viewBox="0 0 24 24" stroke="none">
+                  <path d="M10 2a8 8 0 106.32 14.906l4.387 4.386a1 1 0 001.414-1.414l-4.386-4.387A8 8 0 0010 2zm0 2a6 6 0 11-4.243 10.243A6 6 0 0110 4z"/>
+                </svg>
+              </button>
+            </div>
+    
+            <!-- Login Button -->
+            <a href="#" class="text-black hover:text-blue-800">Login</a>
+
+            <!-- w-48 bg-lime-500 text-white py-2 px-4 rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 -->
+    
+            <!-- Sign Up Button -->
+            <a href="#" class="  bg-lime-500 text-white py-2 px-4 rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Sign Up</a>
+            <!-- <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Sign Up</a> -->
+          </div>
+        </div>
+      </nav>
 </body>
 </html>
