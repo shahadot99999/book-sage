@@ -5,7 +5,7 @@ Overview
 Book Sage is a sleek, user-friendly web platform designed to provide book lovers with personalized recommendations, community reviews, and organized bookshelves. This project highlights my frontend development skills using HTML, CSS, and Tailwind CSS to create a responsive, visually appealing, and highly functional interface.
 
 Live Link
-Explore the live site:
+Explore the live site:   https://book-sage.netlify.app/
 
 GitHub Repository
 Check out the code: https://github.com/shahadot99999/book-sage
@@ -40,6 +40,9 @@ Footer Design
 Implementation: A polished and responsive footer containing important links, social media icons, and contact information. Aligns with the overall aesthetics of Book Sage.
 
 Technologies Used 💻
-HTML: Structure and content organization.
+ 
+ HTML:Structure and content organization.
+
 CSS: Custom styles to complement Tailwind CSS.
+
 Tailwind CSS: Utility-first CSS framework for rapid UI development and responsive design.
